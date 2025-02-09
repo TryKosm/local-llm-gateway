@@ -1,0 +1,14 @@
+[
+  {
+    "id": "local-ollama",
+    "type": "ollama",
+    "healthy": true,
+    "models": ["llama3:8b", "mistral:7b"]
+  },
+  {
+    "id": "gpu-vllm",
+    "type": "vllm",
+    "healthy": true,
+    "models": ["mixtral:8x7b"]
+  }
+]
