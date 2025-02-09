@@ -6,7 +6,7 @@ export function routeModel(model: string, providers: Provider[]): RouteDecision 
     return { selectedProviderId: primary.id, fallbackUsed: false };
   }
 
-  const fallback = providers.find((p) => p.healthy);
+  const fallback = providers.find((p) => p.healthy && p.models.length > 0);
   if (!fallback) {
     throw new Error("No healthy providers available");
   }
