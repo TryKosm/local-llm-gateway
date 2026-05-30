@@ -2,7 +2,7 @@
 
 Route between local and fallback LLM providers.
 
-![CI](https://github.com/TryKosm/local-llm-router/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/NotPBShaw/local-llm-router/actions/workflows/ci.yml/badge.svg)
 
 TypeScript gateway for routing chat requests across local and remote LLM providers with fallback rules.
 
@@ -18,3 +18,14 @@ npm install
 npm test
 npm run build
 ```
+
+## Quickstart
+
+```bash
+npm install
+npm test
+```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
